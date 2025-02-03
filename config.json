@@ -3,6 +3,7 @@
 	{
 		"name": "LuckPool",
         "url": "stratum+tcp://ap.luckpool.net:3956",
+		"timeout": 150,
 		"time-limit": 1800,
 		"disabled": 0
 	}],
