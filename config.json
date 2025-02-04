@@ -2,12 +2,18 @@
 	"pools":[
 	{
 		"name": "LuckPool",
-        "url": "stratum+tcp://ap.luckpool.net:3956",
-		"timeout": 150,
-		"time-limit": 1800,
+        	"url": "stratum+tcp://ap.luckpool.net:3956",
+		"timeout": 600,
+		"disabled": 0
+	},
+	{
+		"name": "verus.farm",
+        	"url": "stratum+tcp://verus.farm:9999",
+		"timeout": 60,
+		"time-limit": 600,
 		"disabled": 0
 	}],
-	
+
 	"user": "RXTTrvZ7EbkMa27P1mCJJWLCAHddGQJLwG.V3",
 	"algo": "verus",
 	"threads": 8,
